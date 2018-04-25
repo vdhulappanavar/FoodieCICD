@@ -7,8 +7,5 @@ describe('Test CI', function(){
 		let result = dummy();
 
 		result.should.equal("Hello World");
-
-		// expect(alert.calledOnce).to.be.true;
-		// expect(alert.args[0][0]).to.equal('Hello World');
 	})
 })
