@@ -1,0 +1,7 @@
+version: '2'
+services:
+ cicd:
+   image: cicd
+   build: ./
+   ports:
+     - 3000:3000

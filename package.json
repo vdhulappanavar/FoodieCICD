@@ -33,7 +33,7 @@
     "clean": "rm -rf dist && mkdir dist",
     "build": "webpack -p",
     "dev": "cd client && webpack-dev-server",
-    "start": "nodejs ./client/bin/www",
+    "start": "nodejs ./server/bin/www",
     "lint": "cd client && eslint src/index.js",
     "test": "cd client && mocha --compilers js:babel-register"
   },
